@@ -1,0 +1,61 @@
+A. Discuss the following in not less than 5 Sentences EACH.
+
+• What are the Control Flow Structures in JavaScript(Conditional)?
+- Control flow in programming is the order in which code executes, usually left to right and top to bottom. Control structures, like if statements, alter this order by enabling the program to run certain code blocks based on specific conditions. In JavaScript, there are several types of conditionals: "if" statements execute code when a condition is true, "else" statements run code when that condition is false, and "else if" statements allow for additional checks if the initial condition isn't met.
+
+• What are the Control Flow Structures in JavaScript(Loop)?
+- Control structures like if statements, switch statements, and loops (for, while, do-while) are essential for a program's behavior. This blog post will explain these structures clearly, with examples and real-life scenarios to help you understand them better.
+
+• For each Structure: present the Syntax and Sample implementations.
+If statement 
+if (condition) {
+  //  block of code to be executed if the condition is true
+}
+
+else statement 
+if (condition) {
+  //  block of code to be executed if the condition is true
+} else {
+  //  block of code to be executed if the condition is false
+}
+
+else if statement 
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+
+For Loop
+for (initialization; condition; increment/decrement) {
+    // Code to execute
+}
+
+While Loop
+while (condition) {
+    // Code to execute
+}
+
+Do-While Loop
+do {
+    // Code to execute
+} while (condition);
+
+B. Discuss what is an Infinite Loop
+
+• What is an infinite Loop?
+- An infinite loop is a set of instructions in a program that repeats endlessly without a stopping condition. These can be created intentionally or happen by error. Sometimes, a pseudo-infinite loop appears endless but eventually stops. In programming, loops keep running until a specific condition is met.
+
+• How is an infinite Loop triggered and how to avoid the accidental implementation of an infinite loop?
+- This can occur in while, for, and do...while loops if the condition isn't set up correctly, often due to missing updates to the loop variable. To prevent infinite loops, make sure the conditions can eventually be met, and test them thoroughly, especially with edge cases. Using debugging tools can help trace the code flow. For complex loops, adding a counter and a break statement can offer extra protection against running endlessly.
+
+
+https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet
+https://medium.com/@sadanandgadwal/understanding-control-structures-in-javascript-a-comprehensive-guide-mern-stack-series-ed947b45461d#:~:text=Control%20structures%20are%20fundamental,the%20behavior%20of%20a%20program.
+https://www.javascript.com/learn/conditionals#:~:text=There%20are%20multiple%20different%20types,for%20a%20block%20of%20code.
+https://www.w3schools.com/js/js_if_else.asp
+https://www.geeksforgeeks.org/loops-in-javascript/
+https://www.technource.com/blog/infinite-loops-in-javascript/#:~:text=An%20infinite%20loop%20is%20a,they%20result%20from%20programming%20errors.
+https://www.techtarget.com/whatis/definition/infinite-loop-endless-loop#:~:text=An%20infinite%20loop%20%2D%2D%20sometimes,a%20certain%20condition%20is%20reached.
