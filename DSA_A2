@@ -4,7 +4,8 @@ A. Discuss the following in not less than 5 Sentences EACH.
 - Control flow in programming is the order in which code executes, usually left to right and top to bottom. Control structures, like if statements, alter this order by enabling the program to run certain code blocks based on specific conditions. In JavaScript, there are several types of conditionals: "if" statements execute code when a condition is true, "else" statements run code when that condition is false, and "else if" statements allow for additional checks if the initial condition isn't met.
 
 • What are the Control Flow Structures in JavaScript(Loop)?
-- Control structures like if statements, switch statements, and loops (for, while, do-while) are essential for a program's behavior. This blog post will explain these structures clearly, with examples and real-life scenarios to help you understand them better.
+- Control structures like if statements, switch statements, and loops (for, while, do-while) are essential for a program's behavior.
+
 
 • For each Structure: present the Syntax and Sample implementations.
 If statement 
